@@ -1,11 +1,11 @@
-import { TaskProvider } from './context/TaskContext';
-import TaskList from './components/TaskList/TaskList';
+import { PhotoProvider } from './context/PhotoContext';
+import Wrapper from './components/Wrapper';
 
 function App() {
   return (
-    <TaskProvider>
-      <TaskList />
-    </TaskProvider>
+    <PhotoProvider>
+      <Wrapper />
+    </PhotoProvider>
   );
 }
 

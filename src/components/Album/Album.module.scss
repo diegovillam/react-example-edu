@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+  .image {
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    small {
+      text-align: center;
+    }
+
+    img {
+      margin-bottom: 10px;
+    }
+  }
+}

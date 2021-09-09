@@ -1,0 +1,14 @@
+.wrapper {
+  border-radius: 10px;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.5);
+  padding: 10px;
+
+  p {
+    font-family: sans-serif;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background: rgba(244, 244, 244, 1);
+  }
+}
